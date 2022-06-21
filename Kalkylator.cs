@@ -4,7 +4,7 @@ using System.IO;
 using System.Linq;
 class Program
 {
-    public static void Main(string[] args)
+    static void Main(string[] args)
     {
         bool menu = true;
         while (menu)
