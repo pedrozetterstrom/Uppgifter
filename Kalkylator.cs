@@ -39,7 +39,7 @@ class Program
     static void addition()
     {
         Console.Clear();
-        Console.Write("Insert the number you want to add to: ");
+        Console.Write("ADDITION \nInsert the number you want to add to: ");
         int num1 = getInt();
         Console.Write("Insert the number you want to add: ");
         int num2 = getInt();
@@ -49,7 +49,7 @@ class Program
     static void subtraction()
     {
         Console.Clear();
-        Console.Write("Insert the number you want to subtract from: ");
+        Console.Write("SUBTRACTION \nInsert the number you want to subtract from: ");
         int num1 = getInt();
         Console.Write("Insert the number you want to subtract: ");
         int num2 = getInt();
@@ -60,7 +60,7 @@ class Program
     static void multiplication()
     {
         Console.Clear();
-        Console.Write("Insert the number you want to multiplicate: ");
+        Console.Write("MULTIPLICATION \nInsert the number you want to multiplicate: ");
         int num1 = getInt();
         Console.Write("Insert the number of times you want to multiply: ");
         int num2 = getInt();
@@ -71,7 +71,7 @@ class Program
     static void division()
     {
         Console.Clear();
-        Console.Write("Insert the number you want to divide: ");
+        Console.Write("DIVISION \nInsert the number you want to divide: ");
         double num1 = Convert.ToDouble(getInt());
         Console.Write("Insert the number of times you want to divide the number: ");
         double num2 = Convert.ToDouble(getDiv());
