@@ -8,10 +8,10 @@ namespace Hangman
     class Program
     {
         static int chances = 10;
-        static string path = File.ReadAllText(@"C:\Users\Lexicon\OneDrive\Skrivbord\hangman\words.txt").ToUpper();
+        static string path = File.ReadAllText(Path.Combine(Directory.GetCurrentDirectory(), "words.txt")).ToUpper();
         static string[] words = path.Split(", ");
         static Random random = new Random();
-        static int rndWord = random.Next(0, 49);
+        static int rndWord = random.Next(0, words.Length);
         static char[] WordChars = words[rndWord].ToCharArray();
         static char[] hiddenChars = new char[WordChars.Length];
         public static StringBuilder letters = new StringBuilder();
