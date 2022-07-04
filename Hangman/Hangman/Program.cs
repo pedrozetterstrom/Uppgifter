@@ -49,7 +49,6 @@ namespace Hangman
                 return false;
             }
             GameState();
-            WriteLine(words[rndWord]);
             WriteLine($"You have {chances} chance(s) left to guess the word:");
             WriteLine("Choose one option:\n1) Guess a letter.\n2) Guess the word.\n0) Exit game.");
             switch (ReadKey().KeyChar)
