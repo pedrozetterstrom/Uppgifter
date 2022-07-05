@@ -38,7 +38,7 @@ namespace Hangman
             if (chances == 1)
             {
                 Clear();
-                WriteLine("That was your last chance. But you are welcome to try again!");
+                 WriteLine($"That was your last chance. The word was {words[rndWord]} But you are welcome to try again!");
                 return false;
             }
             bool result = hiddenChars.Contains('_');
